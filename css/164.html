@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<head>
+<style>
+*{
+    box-sizing: border-box;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+    <h1>网络框</h1>
+    <div class="clearfix">
+    <div class="box"
+    style="background-color:#bbb"><p>框中的一些文本。</p>
+    </div>
+    <div class="box" style="background-color:#ccc">
+    <p>框中的一些文本。</p>
+</div>
+    <div class="box" style="background-color:#ddd">
+    <p>框中的一些文本。</p>
+</div>
+</div>
+
+<p>请注意，我们还用了 clearfix hack 来处理布局流
+    并添加了 box-sizing 属性，以确保框不会由于额外的内边距（填充）而损坏。
+    尝试删除此代码以查看效果。</p></div>
+</body>
+</html>
