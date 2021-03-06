@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<head>
+<style>
+div{
+    border: 3px solid#4CAF50;
+    padding: 5px;
+}
+.img1{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.img2{
+    float: right;
+}
+</style>
+</head>
+<body>
+    <p>在本例中，图像高于包含它的元素，然而它被浮动了，所以它会在容器之外溢出：</p>
+ 
+<div>
+  <h1>Without Clearfix</h1>
+  <img class="img1" src="./../w3logo-1.png" alt="W3School" width="180" height="167">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+</div>
+
+  <p style="clear:right">请为包含元素添加 clearfix hack，以解决此问题：</p>
+  <div class="clearfix">
+  <h1>With Clearfix</h1>
+  <img class="img2" 
+  src="../w3logo-1.png"
+  alt="W3School" width="180" height="167">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+</div>
+</body>
+</html>

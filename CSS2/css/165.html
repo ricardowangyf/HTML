@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<head>
+<style>
+*{
+    box-sizing: border-box;
+}
+.img-container{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+    <h1>并排的图像</h1>
+
+<p>并排浮动图像：</p>
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="../w3logo-1.png" alt="Tulip" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="../w3logo-1.png" alt="Tulip" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="../w3logo-1.pngs" alt="Flower" style="width:100%">
+  </div>
+  </div>
+
+<p>请注意，我们还用了 clearfix hack 来处理布局流
+    并添加了 box-sizing 属性以确保图像容器不会由于额外的内边距（填充）而损坏。
+    请尝试删除此代码以查看效果。</p>
+</body>
+</html>
