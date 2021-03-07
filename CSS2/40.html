@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置四条边框的颜色</title>
+</head>
+
+<body>
+
+    <head>
+        <style>
+            p.one {
+                border-style: solisd;
+                border-color: #0000ff;
+            }
+
+            p.two {
+                border-style: solid;
+                border-color: #ff0000 #0000ff;
+            }
+
+            p.three {
+                border-style: solid;
+                border-color: #ff0000 #00ff00 #0000ff;
+            }
+
+            p.four {
+                border-style: solid;
+                border-color: #ff0000 #00ff00 #0000ff rgb(250, 0, 255);
+            }
+        </style>
+    </head>
+    <p class="one">一种颜色的边框！</p>
+    <p class="two">两种颜色的边框！</p>
+    <p class="three">三种颜色的边框！</p>
+    <p class="four">四种颜色的边框！</p>
+    <p><b>注释：</b>如果单独使用，"border-color" 属性不起作用。请首先使用 "border-style" 属性来设置边框。</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内边距和元素宽度(不设置box-sizing)</title>
+</head>
+
+<body>
+
+
+    <style>
+        div.ex1 {
+            width: 300px;
+            background-color: yellow;
+        }
+
+        div.ex2 {
+            width: 300px;
+            padding: 25px;
+            background-color: lightblue;
+        }
+    </style>
+    <h1>内边距和元素宽度</h1>
+
+    <div class="ex1">这个 div 是 300 像素宽。</div>
+    <br>
+
+    <div class="ex2">这个 div 是 350 像素宽，即使在 CSS 中它被定义为 300 像素。</div>
+
+
+</body>
+
+</html>

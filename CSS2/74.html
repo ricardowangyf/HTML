@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用百分百来设置图像的高度和宽度</title>
+</head>
+
+<body>
+
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        img.one {
+            height: auto;
+            width: auto;
+        }
+
+        img.two {
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+
+    <h1>以百分比设置元素的高度和宽度</h1>
+    <p>请调整浏览器窗口大小以查看效果。</p>
+
+    <p>原始图像：</p>
+    <img class="one" src="../图片/eg_sun.gif" width="300" height="300"><br>
+
+    <p>尺寸调整后的图像（以百分比计）：</p>
+    <img class="two" src="../WechatIMG4.jpeg" width="300" height="300">
+
+
+</body>
+
+</html>

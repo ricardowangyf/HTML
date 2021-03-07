@@ -5,26 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS语法</title>
+    <title>文字方向 </title>
 </head>
 
 <body>
+    <p>
+        如果您的浏览器支持 bi-directional override (bdo)，下一行会从右向左输出 (rtl)；
+    </p>
 
-
-    <style>
-        p {
-            color: red;
-            text-align: center;
-        }
-    </style>
-
-
-
-
-    <p>Hello World!</p>
-    <p>这些段落是通过 CSS 设置样式的。</p>
-
-
+    <bdo dir="rtl">
+        Here is some Hebrew text
+    </bdo>
 </body>
 
 </html>

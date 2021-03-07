@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外边距合并</title>
+</head>
+
+<body>
+
+
+    <style>
+        h1 {
+            margin: 0 0 50px 0;
+        }
+
+        h2 {
+            margin: 20px 0 0 0;
+        }
+    </style>
+
+    <p>在此例中，h1 元素的下外边距为 50px，h2 元素的上外边距为 20px。然后，h1 和 h2 之间的垂直外边距应为 70px（50px + 20px）。但是，由于外边距叠加，实际外边距最终为 50px。</p>
+
+    <h1>标题 1</h1>
+    <h2>标题 2</h2>
+</body>
+
+</html>

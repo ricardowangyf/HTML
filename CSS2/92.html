@@ -5,26 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS语法</title>
+    <title>设置元素的文本方向</title>
 </head>
 
 <body>
-
-
     <style>
-        p {
-            color: red;
-            text-align: center;
+        p.ex1 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
         }
     </style>
+    <p>This is the default text direction.</p>
 
-
-
-
-    <p>Hello World!</p>
-    <p>这些段落是通过 CSS 设置样式的。</p>
-
-
+    <p class="ex1">This is right-to-left text direction.</p>
 </body>
 
 </html>
