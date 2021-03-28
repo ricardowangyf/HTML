@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-<style>
-.move-flex{ 
-    display: flex;
-    flex-direction: row;
-    height: 150px;
-    width: 50%;
-    background-color: rgba(0,0,0, 0.3);
-    margin-top: 50px
-}
-.moveflex{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 150px;
-    width: 50%;
-    background-color: rgba(0,0,0, 0.3);
-    margin-top: 50px;
-}
-</style>
-    
-    <div class="move-flex">
-      <li>这是一个框架</li>  
-    </div>    
 
-    <div class="moveflex">
-        <li>这是一个框架</li>  
-    </div>   
+<body>
+    <style>
+        .move-flex {
+            display: flex;
+            flex-direction: row;
+            height: 150px;
+            width: 50%;
+            background-color: pink;
+            border: 1px solid #1b0808;        }
+
+        .moveflex {
+            display: flex;
+            flex-direction: row-reverse;
+            height: 150px;
+            width: 50%;
+            background-color: pink;
+            border: 1px solid #1b0808;
+        }
+        .move-lex{
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+            width: 50%;
+            background-color: pink;
+            border: 1px solid #1b0808;
+        }
+    </style>
+
+    <div class="move-flex">
+        <li>这是一个框架</li>
+        <div class="moveflex">
+            <li>这是一个框架</li>
+        </div>
+        <div class="move-lex">
+            <li>这是一个框架</li>
+        </div>
+    </div>
 </body>
+
 </html>
