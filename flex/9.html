@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box{
+        width: 350px;
+        height: 100px;
+        border: 1px solid red;
+        display: flex;
+    }
+    .box1{
+        flex-grow: 0 ;
+        flex-shrink: 0;
+        flex-basis:40px ;
+    }
+    .box2{
+        flex-basis: 80px;
+    }
+    .block{
+        background-color: red;  
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+    <div  class="box box1">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+    </div>
+    <div  class="box box2">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+    </div>
+    <div  class="box box3">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+    </div>
+
+</body>
+</html>
