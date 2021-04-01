@@ -29,7 +29,7 @@ body {
     height: 252px;
 }
 .name{
-    padding: 30px 70px;
+    padding: 30px 50px;
     display: flex;
     justify-content: space-between;
 }
