@@ -9,12 +9,6 @@ body {
     margin-right: auto;
     width: 1024px;
 }
-.PDF-left{
-    float: left;
-}
-.time-right{
-    float: right;
-}
 .dingbu{
     margin-top: 33px;
     color: #bbb;
@@ -29,7 +23,7 @@ body {
     height: 252px;
 }
 .name{
-    padding: 30px 50px;
+    padding: 30px 50px  10px ;
     display: flex;
     justify-content: space-between;
 }
@@ -42,3 +36,25 @@ body {
     top: 35px;
     font-weight: 100;
 }
+.yu{
+    border-top: 2px solid #00a982;
+    padding-top: 10px;
+}
+.wo{
+    display: flex;
+    justify-content: space-between;
+}
+.xian{
+    width: 90%;
+    position: relative;
+    left: 47px;
+}
+.o{
+    padding: 2px 50px 11px;
+}
+.nan{
+    font-size: 17px;
+}
+.boke{
+    font-size: 17px;
+}s
