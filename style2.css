@@ -1,0 +1,22 @@
+/*设置页面背景颜色*/
+body {
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.juzhong{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+.PDF-left{
+    float: left;
+}
+.time-right{
+    float: right;
+}
+.dingbu{
+    margin-top: 33px;
+    color: #bbb;
+    font-size: 12px;
+}
