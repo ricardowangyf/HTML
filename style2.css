@@ -109,3 +109,7 @@ body {
     position: relative;
     left: 15px;
 }
+.link{
+    display: flex;
+    justify-content: flex-end;
+}
