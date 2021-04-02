@@ -60,17 +60,17 @@ body {
 }
 .baise{
     background-color: #fff;
-    height: 2048px;
+    height: 1505px;
 }
 .sub{
     border-radius: 32px;
     font-weight: 700;
-    padding: 6px 10px 30px 10px;
+    padding: 2px  5px;
     background-color: #eee;
     text-align: center;
-    width: 93px;
+    width: 90px;
     position: relative;
-    left: 14px;
+    left: 10px;
     margin: 0 auto;
     font-size: 17px;
 }
@@ -83,7 +83,7 @@ body {
 }
 .xian-left{
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 33px;
     display: inline-block;
     width: 35%;
@@ -93,7 +93,7 @@ body {
 }
 .xian-right{
     position: absolute;
-    top: 60%;
+    top: 50%;
     right: 7px;
     display: inline-block;
     width: 35%;
@@ -102,7 +102,7 @@ body {
     border-top: 1px solid #ededed;
 }
 .shanghai{
-    padding: 20px 13px 10px;
+    padding: 5px 10px 5px;
     position: relative;
     left: 15px;
     line-height: 30px;
@@ -117,13 +117,13 @@ body {
     font-weight: 300;
 }
 .meituan{
-    padding: 30px 10px 18px;
+    padding: 5px 10px 5px;
 }
 .tenctqq{
-    padding: 30px 10px 18px;
+    padding: 10px 5px 5px;
 }
 .item{
-    padding: 30px 10px 18px;
+    padding: 5px 10px;
 }
 .mao{
     padding: 10px 20px;
@@ -131,7 +131,7 @@ body {
 .ms{
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 5px;
 }
 .linkicon{
     display: flex;
@@ -181,5 +181,5 @@ body {
 
 .zhifubao{
     text-decoration: none;
-color: #00b38a;
+    color: #00b38a;
 }
