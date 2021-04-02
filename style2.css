@@ -62,9 +62,6 @@ body {
     background-color: #fff;
     height: 1024px;
 }
-.OP{
-    width: 50%;
-}
 .sub{
     border-radius: 32px;
     font-weight: 700;
@@ -108,8 +105,33 @@ body {
     padding: 20px 13px 10px;
     position: relative;
     left: 15px;
+    line-height: 30px;
 }
 .link{
+    display: flex;
+    justify-content: flex-end;
+}
+.item-des{
+    position: relative;
+    bottom: 35px;
+}
+.meituan{
+    padding: 30px 10px 18px;
+}
+.tenctqq{
+    padding: 30px 10px 18px;
+}
+.item{
+    padding: 30px 10px 18px;
+}
+.mao{
+    padding: 10px 20px;
+}
+.ms{
+    display: flex;
+    justify-content: flex-start;
+}
+.linkicon{
     display: flex;
     justify-content: flex-end;
 }
