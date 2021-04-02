@@ -60,7 +60,7 @@ body {
 }
 .baise{
     background-color: #fff;
-    height: 1024px;
+    height: 2048px;
 }
 .sub{
     border-radius: 32px;
@@ -130,8 +130,40 @@ body {
 .ms{
     display: flex;
     justify-content: flex-start;
+    padding: 10px;
 }
 .linkicon{
     display: flex;
     justify-content: flex-end;
+}
+.ill{
+    display: flex;
+    justify-content: space-between;
+}
+.ill-w{
+    border-radius: 32px;
+    font-weight: 700;
+    padding: 4px 10px;
+    background-color: #eee;
+    text-align: center;
+    width: 15%;
+    position: relative;
+    right: 5px;
+}
+.ill-l{
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    height: 11px;
+    width: 300px
+}
+.ill-r{
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    height: 11px;
+    width: 300px
+}
+.zhongjian{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 22px 21px;
 }
