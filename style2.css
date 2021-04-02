@@ -166,8 +166,10 @@ body {
 .zhongjian{
     display: flex;
     justify-content: space-between;
-    padding: 46px 22px 21px;
     line-height: 35px;
+    padding: 15px 55px;
+    position: relative;
+    right: 30px
 }
 .another{
     padding: 10px;
@@ -182,4 +184,15 @@ body {
 .zhifubao{
     text-decoration: none;
     color: #00b38a;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+.footlink{
+    display: inline-block;
+    color: #d1d1d1;
+    margin-bottom: 25px;
+    text-decoration: none;
 }
