@@ -178,3 +178,8 @@ body {
 .item-name{
     font-weight: 700;
 }
+
+.zhifubao{
+    text-decoration: none;
+color: #00b38a;
+}
