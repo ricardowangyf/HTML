@@ -60,4 +60,52 @@ body {
 }
 .baise{
     background-color: #fff;
+    height: 1024px;
+}
+.OP{
+    width: 50%;
+}
+.sub{
+    border-radius: 32px;
+    font-weight: 700;
+    padding: 6px 10px 30px 10px;
+    background-color: #eee;
+    text-align: center;
+    width: 93px;
+    position: relative;
+    left: 14px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 28px;
+    margin: 10px auto 5px;
+}
+.xian-left{
+    position: absolute;
+    top: 60%;
+    left: 33px;
+    display: inline-block;
+    width: 35%;
+    height: 0;
+    vertical-align: middle;
+    border-top: 1px solid #ededed;
+}
+.xian-right{
+    position: absolute;
+    top: 60%;
+    right: 7px;
+    display: inline-block;
+    width: 35%;
+    height: 0;
+    vertical-align: middle;
+    border-top: 1px solid #ededed;
+}
+.shanghai{
+    padding: 20px 13px 10px;
+    position: relative;
+    left: 15px;
 }
