@@ -9,15 +9,109 @@
     <style>
         ul {
             list-style: decimal outside none;
+            margin: 0;
         }
         
-        li {
-            width: 50%;
-            border: pink;
+        .HTML {
+            float: left;
+            border: 3px solid #fafafa;
+            border-radius: 10px;
+            background: pink;
+            transition: 0.3s;
+            line-height: 26px;
+            width: 20%;
+        }
+        
+        .HTML:hover {
+            background: gray;
+        }
+        
+        a {
+            text-decoration: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .css {
+            float: left;
+            border: 3px solid #fafafa;
+            border-radius: 10px;
+            background: pink;
+            transition: 0.3s;
+            width: 20%;
+        }
+        
+        .css:hover {
+            background: gray;
+        }
+        
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .flex {
+            float: left;
+            border: 3px solid #fafafa;
+            border-radius: 10px;
+            background: pink;
+            transition: 0.3s;
+        }
+        
+        .flex:hover {
+            background: gray;
+        }
+        
+        .float {
+            float: left;
+            border: 3px solid #fafafa;
+            border-radius: 10px;
+            background: pink;
+            transition: 0.3s;
+            position: relative;
+            top: 300px;
+            right: 189px;
+        }
+        
+        .float :hover {
+            background: gray;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .heibai {
+            float: left;
+            border: 3px solid #fafafa;
+            border-radius: 10px;
+            background: pink;
+            transition: 0.3s;
+            position: relative;
+            top: 360px;
+            right: 277px;
+        }
+        
+        a {
+            transition: 0.3s;
+        }
+        
+        a:hover {
+            color: white;
+        }
+        
+        .heibai:hover {
+            background: gray;
         }
     </style>
 </head>
-
 
 <body>
     <div class="HTML" style="float:left;">
@@ -367,7 +461,7 @@
             </li>
         </ul>
     </div>
-    <div class="css" style="padding-top: 2px;">
+    <div class="css" style="padding-left: 29px;">
         <h2>学习css</h2>
         <ul>
             <li>
@@ -771,7 +865,7 @@
         </ul>
     </div>
     <div class="flex">
-        <h2>学习flex</h2>
+        <h1>学习flex</h1>
         <ul>
             <li>
                 <a href="./flex/1.html">学习flex-direction</a>
@@ -809,23 +903,27 @@
             <li>
                 <a href="./flex/12.html">学习align-self</a>
             </li>
+
         </ul>
+        <div class="clear"></div>
     </div>
     <div class="float">
-        <h2 style="width: 110px;">学习float</h2>
+        <h1>学习float</h1>
         <ul>
             <li>
                 <a href="./float.html">float</a>
             </li>
         </ul>
+        <div class="clear"></div>
     </div>
     <div class="heibai">
-        <h2>学习html+css通过按钮切换黑白模式</h2>
+        <h1>切换黑白模式</h1>
         <ul>
             <li>
-                <a href="./demo(3)(1).html">学习html css 通过按钮切换黑白模式</a>
+                <a href="./demo(3)(1).html">黑白模式</a>
             </li>
         </ul>
+        <div class="clear"></div>
     </div>
 </body>
 
