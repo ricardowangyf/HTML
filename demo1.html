@@ -12,6 +12,15 @@
             --bg-color: #fff;
         }
         
+        body {
+            background-color: var(--bg-color);
+            transition: 0.4s;
+        }
+        
+        .theme-switch svg {
+            fill: var(--nav-color)
+        }
+        
         [data-theme="dark"] {
             --nav-color: #fff;
             --bg-color: #131617;
@@ -44,15 +53,6 @@
         
         #checkbox+.mode-container .dark {
             display: inline-block;
-        }
-        
-        body {
-            background-color: var(--bg-color);
-            transition: 0.4s;
-        }
-        
-        .theme-switch svg {
-            fill: var(--nav-color)
         }
     </style>
 </head>
