@@ -30,23 +30,23 @@
             display: flex;
         }
         
-        #checkbox {
+        #boxs {
             display: none;
         }
         
-        #checkbox:checked+.mode-container .light {
+        #boxs:checked+.mode-container .light {
             display: inline-block;
         }
         
-        #checkbox+.mode-container .light {
+        #boxs+.mode-container .light {
             display: none;
         }
         
-        #checkbox:checked+.mode-container .dark {
+        #boxs:checked+.mode-container .dark {
             display: none;
         }
         
-        #checkbox+.mode-container .dark {
+        #boxs+.mode-container .dark {
             display: inline-block;
         }
         
@@ -61,8 +61,8 @@
 </head>
 
 <body>
-    <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox">
+    <label class="theme-switch" for="boxs">
+        <input type="boxs" id="boxs">
         <span class="mode-container">
             <svg t="1621341413965" class="dark" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 p-id="3375" width="30" height="30">
@@ -80,7 +80,7 @@
     </label>
 
     <script>
-        var btn = document.getElementById("checkbox")
+        var btn = document.getElementById("boxs")
         btn.onchange = function(evn) {
             if (evn.target.checked) {
                 document.documentElement.setAttribute("data-theme", "dark")
