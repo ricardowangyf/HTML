@@ -24,12 +24,12 @@
         --bg-color: #ffffff;
     }
     
-    .an {
+    .checkbox {
         display: inline-block;
         cursor: pointer;
     }
     
-    .an .ron {
+    .checkbox .ron {
         display: flex;
     }
     
@@ -51,6 +51,7 @@
 </style>
 
 <body>
+
     <label class="an" for="checkbox">
         <input class="checkbox" id="checkbox">
         <span class="ron">
@@ -72,6 +73,7 @@
         </span>
         </input>
     </label>
+
     <script>
         var btn = document.getElementById("checkbox")
         btn.onchange = function(evn) {
