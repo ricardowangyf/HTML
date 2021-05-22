@@ -17,10 +17,6 @@
             --bg-color: #131617;
         }
         
-        [data-theme="light"] {
-            --nav-color: #fff;
-        }
-        
         .theme-switch {
             display: inline-block;
             cursor: pointer;
@@ -58,8 +54,8 @@
             fill: var(--nav-color)
         }
         
-        .www:hover {
-            color: #fff;
+        .www {
+            background-color: var(--bg-color);
         }
     </style>
 </head>
@@ -80,7 +76,7 @@
             if (evn.target.checked) {
                 document.documentElement.setAttribute("data-theme", "dark")
             } else {
-                document.documentElement.setAttribute("data-theme", "light")
+                document.documentElement.setAttribute("data-theme", "light", "www")
             }
         }
     </script>
