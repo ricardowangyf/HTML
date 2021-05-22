@@ -51,11 +51,12 @@
         }
         
         .theme-switch svg {
-            fill: var(--nav-color)
+            fill: var(--nav-color);
         }
         
         .www {
             background-color: var(--bg-color);
+            color: var(--nav-color);
         }
     </style>
 </head>
@@ -76,7 +77,7 @@
             if (evn.target.checked) {
                 document.documentElement.setAttribute("data-theme", "dark")
             } else {
-                document.documentElement.setAttribute("data-theme", "light", "www")
+                document.documentElement.setAttribute("data-theme", "light")
             }
         }
     </script>
