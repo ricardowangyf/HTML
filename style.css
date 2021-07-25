@@ -1,0 +1,172 @@
+ul {
+    margin: 0;
+    list-style: decimal outside none;
+}
+
+body {
+    margin: 0;
+}
+
+.html {
+    width: 20%;
+    float: left;
+    transition: 0.3s;
+    line-height: 26px;
+    background: pink;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.html:hover {
+    background: gray;
+}
+
+.html:hover a {
+    color: #fff;
+}
+
+.html:hover h1 {
+    color: #fff;
+}
+
+a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    transition: 0.3s;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+h1:hover {
+    color: violet;
+}
+
+h3 {
+    margin: 0;
+    font-size: 25px;
+    transition: 0.3s;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+}
+
+.css {
+    float: left;
+    width: 20%;
+    transition: 0.3s;
+    line-height: 21px;
+    background: pink;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.css:hover {
+    background: gray;
+}
+
+.css:hover a {
+    color: #fff;
+}
+
+.css:hover h1 {
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.flex {
+    float: left;
+    transition: 0.3s;
+    background: pink;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.flex:hover {
+    background: gray;
+}
+
+.flex:hover a {
+    color: #fff;
+}
+
+.flex:hover h1 {
+    color: #fff;
+}
+
+.float {
+    top: 355px;
+    float: left;
+    right: 190px;
+    transition: 0.3s;
+    background: pink;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.float:hover {
+    background: gray;
+}
+
+.float:hover a {
+    color: #fff;
+}
+
+.float:hover h1 {
+    color: #fff;
+}
+
+.float:hover h3 {
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.heibai {
+    float: left;
+    right: 135px;
+    transition: 0.3s;
+    background: pink;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.heibai:hover {
+    background: gray;
+}
+
+.heibai:hover a {
+    color: #fff;
+}
+
+.heibai:hover h1 {
+    color: #fff;
+}
+
+.heibai:hover h3 {
+    color: #fff;
+}
+
+a {
+    transition: 0.3s;
+    color: #3f3a64;
+}
+
+a:hover {
+    color: white;
+}
