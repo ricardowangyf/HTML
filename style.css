@@ -170,3 +170,29 @@ a {
 a:hover {
     color: white;
 }
+
+.html3 {
+    float: left;
+    right: -4px;
+    transition: 0.3s;
+    background: pink;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
+}
+
+.html3:hover {
+    background: gray;
+}
+
+.html3:hover a {
+    color: #fff;
+}
+
+.html3:hover h1 {
+    color: #fff;
+}
+
+.html3:hover h3 {
+    color: #fff;
+}
