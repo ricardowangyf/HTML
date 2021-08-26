@@ -1,11 +1,5 @@
 # learning-area
 
-欢迎访问 [MDN 学习区](https://developer.mozilla.org/zh-CN/Learn) Github 仓库中文版。
-
-这里有学习区中展示、讨论的大部分示例代码，本 repo 文件夹结构与网站结构保持一致。
-
-英文版中 [Web 入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web) 等示例是单独的 repos，本 repo 一并收录。
-
 以下内容不定期更新，希望你能喜欢。
 
 ----
@@ -17,15 +11,15 @@
 1. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site)
 [代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics) |
-HTML 基础：Mozilla 酷毙了
+HTML 基础：Mozilla 
 2. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site-styled)
 [代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site-styled) 
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/CSS_basics) |
-CSS 基础：Mozilla 酷毙了（样式版）
+CSS 基础：Mozilla  
 3. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site-scripted)
 [代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site-scripted)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics) |
-JavaScript 基础：Mozilla 酷毙了（脚本版）
+JavaScript 基础：Mozilla  
 
 ### 1. HTML
 
@@ -244,42 +238,3 @@ JavaScript 比较运算符：今天心情如何
 章节测验：笑话机
 
 #### 3.2 JavaScript 基础要件
-
-1. [示例](https://roy-tian.github.io/learning-area/javascript/building-blocks/gallery)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/building-blocks/gallery)
-[章节](https://developer.mozilla.org/zh-CN/docs/learn/JavaScript/Building_blocks/相片走廊) |
-章节测验：照片库
-
-#### 3.3 JavaScript 对象
-
-1. [示例](https://roy-tian.github.io/learning-area/javascript/oojs/bouncing-balls)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/oojs/bouncing-balls)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_building_practice) |
-实践对象构造：弹球
-2. [示例](https://roy-tian.github.io/learning-area/javascript/oojs/assessment)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/oojs/assessment)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/向“弹跳球”演示程序添加新功能) |
-章节测验：弹球 + 恶魔圈
-3. [示例](https://roy-tian.github.io/learning-area/javascript/oojs/assessment-es-class)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/oojs/assessment-es-class)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/向“弹跳球”演示程序添加新功能) |
-章节测验：弹球 + 恶魔圈（ES6 版）
-
-### A. 其他工具
-
-1. [示例](https://roy-tian.github.io/learning-area/extras/tools/playable-code)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/tools/playable-code)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics) |
-Web 入门：代码操场
-2. [示例](https://roy-tian.github.io/learning-area/extras/tools/color-picker)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/tools/color-picker)
-[章节](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Colors/Color_picker_tool) |
-CSS 颜色选择工具
-3. [示例](https://roy-tian.github.io/learning-area/extras/tools/key-event)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/tools/key-event)
-[章节](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/key) |
-按键事件
-4. [示例](https://roy-tian.github.io/learning-area/extras/tools/touch-paint)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/tools/touch-paint)
-[章节](https://developer.mozilla.org/zh-CN/docs/Web/API/Touch_events) |
-触摸绘图板
