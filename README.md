@@ -210,31 +210,4 @@ HTML 表单示例：URL
 [代码](https://github.com/roy-tian/learning-area/tree/master/html/forms/week-example/index.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms) |
 HTML 表单示例：周的示例
-
-
-### 3. JavaScript
-
-#### 3.1 JavaScript 初步
-
-1. [示例](https://roy-tian.github.io/learning-area/javascript/introduction-to-js-1/what-is-js/javascript-label.html) 
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/introduction-to-js-1/what-is-js)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/What_is_JavaScript) |
-什么是 JavaScript
-2. [示例](https://roy-tian.github.io/learning-area/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/introduction-to-js-1/first-splash)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/A_first_splash) |
-JavaScript 初体验：猜数字游戏
-3. [示例](https://roy-tian.github.io/learning-area/javascript/introduction-to-js-1/maths/conditional.html)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/introduction-to-js-1/maths/conditional.html)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Math#比较运算符) |
-JavaScript 比较运算符：状态机
-4. [示例](https://roy-tian.github.io/learning-area/javascript/introduction-to-js-1/maths/conditional2.html)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/introduction-to-js-1/maths/conditional2.html)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Math#比较运算符) |
-JavaScript 比较运算符：今天心情如何
-5. [示例](https://roy-tian.github.io/learning-area/javascript/introduction-to-js-1/assessment-finished)
-[代码](https://github.com/roy-tian/learning-area/tree/master/javascript/introduction-to-js-1/assessment-finished)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Silly_story_generator) |
-章节测验：笑话机
-
-#### 3.2 JavaScript 基础要件
+ 
