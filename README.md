@@ -8,7 +8,7 @@
 
 ### 0. Web 入门
 
-1. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site)
+1. [示例](https://wangyf2020.gitee.io/html/html3/1.html)
 [代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics) |
 HTML 基础：Mozilla 
