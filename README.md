@@ -6,7 +6,7 @@
 
 #### 1.1 HTML 初步
 
-1. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/getting-started)
+1. [示例](https://wangyf2020.gitee.io/html/html3/1.html)
 [代码](https://github.com/roy-tian/learning-area/tree/master/html/introduction-to-html/getting-started)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started) |
 开始学习 HTML
