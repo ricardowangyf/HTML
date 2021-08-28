@@ -8,7 +8,7 @@ body {
 }
 
 .html {
-    width: 25%;
+    width: 20%;
     float: left;
     transition: 0.3s;
     line-height: 26px;
@@ -59,7 +59,7 @@ h3 {
 
 .css {
     float: left;
-    width: 25%;
+    width: 20%;
     transition: 0.3s;
     line-height: 21px;
     background: pink;
@@ -86,15 +86,12 @@ h2 {
 }
 
 .flex {
-    width: 18%;
+    width: 15%;
     float: right;
     transition: 0.3s;
     background: pink;
     border-radius: 10px;
     border: 3px solid #fafafa;
-    top: 0px;
-    position: relative;
-    left: 309px;
 }
 
 .flex:hover {
@@ -111,9 +108,9 @@ h2 {
 
 .float {
     width: 18%;
-    top: 150px;
+    top: 144px;
     float: right;
-    left: 200px;
+    left: 177px;
     transition: 0.3s;
     background: pink;
     position: relative;
@@ -144,11 +141,11 @@ h2 {
 .heibai {
     width: 18%;
     float: right;
-    right: 95px;
-    bottom: 1px;
+    right: 91px;
+    bottom: 20px;
     transition: 0.3s;
     background: pink;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
     border: 3px solid #fafafa;
 }
@@ -178,13 +175,14 @@ a:hover {
     color: white;
 }
 
-s .html3 {
-    width: 25%;
-    float: right;
-    right: 383px;
+.html3 {
+    width: 15%;
+    float: left;
+    right: 733px;
+    bottom: 365px;
     transition: 0.3s;
     background: pink;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
     border: 3px solid #fafafa;
 }
