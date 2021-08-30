@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <title>日期选择器示例（兼容版）</title>
+    <style>
+        input:invalid+span:after {
+            content: '✖';
+            padding-left: 5px;
+        }
+        
+        input:valid+span:after {
+            content: '✓';
+            padding-left: 5px;
+        }
+    </style>
+
+    <body>
+        <form>
+            <div class="nativeDatePicker">
+                <label for="bday">输入你的生日：</label>
+                <input type="date" id="bday" name="bday">
+            </div>
+            <p class="fallbackLabel">输入你的生日：</p>
+            <div class="fallbackDatePicker">
+                <span>
+                <select id="year" name="year"> </select>
+                <label for="year">年</label>
+              </span>
+                <span>
+                <select id="month" name="month">
+                  <option selected>一</option>
+                  <option>二</option>
+                  <option>三</option>
+                  <option>四</option>
+                  <option>五</option>
+                  <option>六</option>
+                  <option>七</option>
+                  <option>八</option>
+                  <option>九</option>
+                  <option>十</option>
+                  <option>十一</option>
+                  <option>十二</option>
+                </select>
+                <label for="month">月</label>
+              </span>
+                <span>
+                <select id="day" name="day"></select>
+                <label for="day">日</label>
+              </span>
+            </div>
+        </form>
+    </body>
+
+</html>
