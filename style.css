@@ -63,6 +63,7 @@ a {
 .flex {
     width: 192px;
     height: 355px;
+    margin-right: 30px;
     position: relative;
     border-radius: 10px;
     background: #fafafa;
@@ -70,11 +71,8 @@ a {
 }
 
 .heibai {
-    top: 367px;
-    right: 193px;
     width: 190px;
     height: 150px;
-    position: relative;
     border-radius: 10px;
     background: #fafafa;
     border: 1px solid #754ef9;
