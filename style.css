@@ -29,7 +29,7 @@ a:hover {
 
 .display {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .html {
@@ -65,15 +65,6 @@ a:hover {
     position: relative;
     transition: 0.3s;
     background: pink;
-    border-radius: 10px;
-    border: 3px solid #fafafa;
-}
-
-.heibai {
-    height: 150px;
-    transition: 0.3s;
-    background: pink;
-    position: relative;
     border-radius: 10px;
     border: 3px solid #fafafa;
 }
