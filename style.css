@@ -18,8 +18,8 @@ h2 {
 }
 
 a {
-    transition: 0.3s;
     color: #3f3a64;
+    transition: 0.3s;
     text-decoration: none;
 }
 
@@ -28,43 +28,54 @@ a:hover {
 }
 
 .display {
+    padding: 25px;
     display: flex;
     justify-content: start;
 }
 
 .html {
     width: 245px;
-    transition: 0.3s;
-    line-height: 26px;
-    background: pink;
+    line-height: 25px;
     border-radius: 10px;
-    border: 3px solid #fafafa;
+    margin-right: 30px;
+    background: #fafafa;
+    border: 1px solid #754ef9;
 }
 
 .css {
     width: 240px;
-    transition: 0.3s;
     line-height: 21px;
-    background: pink;
+    background: #fafafa;
+    margin-right: 30px;
     border-radius: 10px;
-    border: 3px solid #fafafa;
+    border: 1px solid #754ef9;
 }
 
 .html3 {
     width: 255px;
-    transition: 0.3s;
-    background: pink;
+    background: #fafafa;
+    margin-right: 30px;
     position: relative;
     border-radius: 10px;
-    border: 3px solid #fafafa;
+    border: 1px solid #754ef9;
 }
 
 .flex {
-    width: 187px;
-    height: 350px;
+    width: 192px;
+    height: 355px;
     position: relative;
-    transition: 0.3s;
-    background: pink;
     border-radius: 10px;
-    border: 3px solid #fafafa;
+    background: #fafafa;
+    border: 1px solid #754ef9;
+}
+
+.heibai {
+    top: 367px;
+    right: 185px;
+    width: 190px;
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid #754ef9;
 }
