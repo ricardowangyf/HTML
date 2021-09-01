@@ -1,15 +1,39 @@
 ul {
     margin: 0;
-    list-style: decimal outside none;
+    list-style: decimal;
 }
 
 body {
     margin: 0;
 }
 
+h1 {
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+a {
+    transition: 0.3s;
+    color: #3f3a64;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
 .html {
-    width: 20%;
-    float: left;
+    width: 245px;
     transition: 0.3s;
     line-height: 26px;
     background: pink;
@@ -17,49 +41,8 @@ body {
     border: 3px solid #fafafa;
 }
 
-.html:hover {
-    background: gray;
-}
-
-.html:hover a {
-    color: #fff;
-}
-
-.html:hover h1 {
-    color: #fff;
-}
-
-a {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-h1 {
-    margin: 0;
-    font-size: 30px;
-    transition: 0.3s;
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-}
-
-h1:hover {
-    color: violet;
-}
-
-h3 {
-    margin: 0;
-    font-size: 21px;
-    transition: 0.3s;
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 15px 20px 15px
-}
-
 .css {
-    float: left;
-    width: 20%;
+    width: 240px;
     transition: 0.3s;
     line-height: 21px;
     background: pink;
@@ -67,139 +50,30 @@ h3 {
     border: 3px solid #fafafa;
 }
 
-.css:hover {
-    background: gray;
-}
-
-.css:hover a {
-    color: #fff;
-}
-
-.css:hover h1 {
-    color: #fff;
-}
-
-h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 300;
+.html3 {
+    width: 255px;
+    transition: 0.3s;
+    background: pink;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid #fafafa;
 }
 
 .flex {
-    width: 15%;
-    float: right;
+    width: 187px;
+    height: 350px;
     position: relative;
     transition: 0.3s;
     background: pink;
     border-radius: 10px;
     border: 3px solid #fafafa;
-    right: 368px;
-}
-
-.flex:hover {
-    background: gray;
-}
-
-.flex:hover a {
-    color: #fff;
-}
-
-.flex:hover h1 {
-    color: #fff;
-}
-
-.float {
-    width: 15%;
-    top: 494px;
-    float: right;
-    right: 170px;
-    transition: 0.3s;
-    background: pink;
-    position: relative;
-    border-radius: 10px;
-    border: 3px solid #fafafa;
-}
-
-.float:hover {
-    background: gray;
-}
-
-.float:hover a {
-    color: #fff;
-}
-
-.float:hover h1 {
-    color: #fff;
-}
-
-.float:hover h3 {
-    color: #fff;
-}
-
-.clear {
-    clear: both;
 }
 
 .heibai {
-    float: right;
-    right: 367px;
-    bottom: 20px;
+    height: 150px;
     transition: 0.3s;
     background: pink;
-    position: absolute;
+    position: relative;
     border-radius: 10px;
     border: 3px solid #fafafa;
-}
-
-.heibai:hover {
-    background: gray;
-}
-
-.heibai:hover a {
-    color: #fff;
-}
-
-.heibai:hover h1 {
-    color: #fff;
-}
-
-.heibai:hover h3 {
-    color: #fff;
-}
-
-a {
-    transition: 0.3s;
-    color: #3f3a64;
-}
-
-a:hover {
-    color: white;
-}
-
-.html3 {
-    width: 15%;
-    float: left;
-    right: 567px;
-    bottom: 350px;
-    transition: 0.3s;
-    background: pink;
-    position: absolute;
-    border-radius: 10px;
-    border: 3px solid #fafafa;
-}
-
-.html3:hover {
-    background: gray;
-}
-
-.html3:hover a {
-    color: #fff;
-}
-
-.html3:hover h1 {
-    color: #fff;
-}
-
-.html3:hover h3 {
-    color: #fff;
 }
