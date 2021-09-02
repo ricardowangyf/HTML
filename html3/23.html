@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 设置 id 为 "myHeader" 的元素的样式 */
+        
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+        }
+        /* 设置类名为 "city" 的所有元素的样式 */
+        
+        .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Class 与 ID 的差异</h1>
+
+    <p>一个类名可以由多个 HTML 元素使用，而一个 id 名称只能由页面中的一个 HTML 元素使用：</p>
+
+    <!-- 拥有唯一 id 的元素 -->
+    <h1 id="myHeader">我的城市</h1>
+
+    <!-- 拥有相同类名的多个元素 -->
+    <h2 class="city">上海</h2>
+    <p>中国最大的经济城市。</p>
+
+    <h2 class="city">深圳</h2>
+    <p>中国最具创新力的城市。</p>
+
+    <h2 class="city">北京</h2>
+    <p>中国的首都。</p>
+</body>
+
+</html>
