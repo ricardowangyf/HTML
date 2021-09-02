@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>在 JavaScript 中使用 id 属性</h1>
+
+    <p>JavaScript 可以使用 getElementById() 方法访问具有指定 ID 的元素：</p>
+
+    <h2 id="myHeader">Hello World!</h2>
+    <button onclick="displayResult()">法外狂徒</button>
+
+    <script>
+        function displayResult() {
+            document.getElementById("myHeader").innerHTML = "张三!";
+        }
+    </script>
+</body>
+
+</html>
