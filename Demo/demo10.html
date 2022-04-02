@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input {
+      padding: 5px 15px;
+      height: 46px;
+      font-size: 18px;
+    }
+    input::-webkit-input-placeholder { 
+      /* WebKit browsers */ 
+      color: red;
+      font-size: 18px;
+    } 
+    input:-moz-placeholder { 
+      /* Mozilla Firefox 4 to 18 */ 
+      color: red; 
+      font-size: 18px;
+    } 
+    input::-moz-placeholder { 
+      /* Mozilla Firefox 19+ */ 
+      color: red; 
+      font-size: 18px;
+    } 
+    input:-ms-input-placeholder { 
+      /* Internet Explorer 10+ */ 
+      color: red; 
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body style="background-color: #6b6b6b;">
+  <input type="text" placeholder="这里是说明" />
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .menu span {
+      display: inline-block;
+      height: 3px;
+      width: 20px;
+      background-color: #fff;
+      top: -4px;
+      position: relative;
+    }
+    .menu:hover span {
+      background-color: #333;
+    }
+    
+    .block {
+      width: 500px;
+      background-color: azure;
+      display: flex;
+    }
+    .block .item {
+      text-align: center;
+      width: 100px;
+      height: 250px;
+      background: #d4d4d4;
+      margin: 0 10px;
+    }
+    .block .item:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .block .item .test {
+      position: relative;
+      transition: top .3s;
+      top: 0;
+      background-color: red;
+    }
+    .block .item:hover .test {
+      top: -10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <span class="menu">
+      <span></span>
+      首页
+    </span>
+    <span class="menu">
+      <span></span>
+      首页
+    </span>
+    <span class="menu">
+      <span></span>
+      首页
+    </span>
+  </div>
+
+  <div class="block">
+    <div class="item">
+      文本
+    </div>
+    <div class="item">
+      文本
+      <div class="test">
+        测试
+      </div>
+    </div>
+    <div class="item">
+      文本
+    </div>
+  </div>
+</body>
+</html>

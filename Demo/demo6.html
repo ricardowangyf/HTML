@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+         :root {
+            --nav-color: #292922;
+            --bg-color: #fff;
+        }
+        
+        [data-theme="dark"] {
+            --nav-color: #fff;
+            --bg-color: #131617;
+        }
+        
+        .theme-switch {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .theme-switch .mode-container {
+            display: flex;
+        }
+        
+        #checkbox {
+            display: none;
+        }
+        
+        #checkbox:checked+.mode-container .light {
+            display: inline-block;
+        }
+        
+        #checkbox+.mode-container .light {
+            display: none;
+        }
+        
+        #checkbox:checked+.mode-container .dark {
+            display: none;
+        }
+        
+        #checkbox+.mode-container .dark {
+            display: inline-block;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+        }
+        
+        .theme-switch svg {
+            fill: var(--nav-color)
+        }
+        
+        .mode-container {
+            padding: 20px;
+            width: 75px;
+            height: 20px;
+            background-color: #131617;
+        }
+        
+        .mode-containr {
+            padding: 20px;
+            width: 75px;
+            height: 20px;
+            background-color: #131617;
+        }
+    </style>
+    </head>
+
+    <body>
+        <label class="theme-switch" for="checkbox">
+   <input type="checkbox" id="checkbox">
+   <span class="mode-container"></span> 
+    <span class="mode-containr"></span>
+   </label>
+        <script>
+            var btn = document.getElementById("checkbox")
+            btn.onchange = function(evn) {
+                if (evn.target.checked) {
+                    document.documentElement.setAttribute("data-theme", "dark")
+                } else {
+                    document.documentElement.setAttribute("data-theme", "light")
+                }
+            }
+        </script>
+    </body>
+
+</html>
